@@ -37,7 +37,7 @@ if (process.env.DEBUG) {
   canDebug = true;
 }
 
-const toggleDebug = (flag) => {
+const setDebug = (flag) => {
   canDebug = flag;
 }
 
@@ -79,6 +79,7 @@ const critical = (message) => {
 }
 
 module.exports = {
+  setDebug: setDebug,
   debug: debug,
   log: info,
   info: info,

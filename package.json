@@ -2,8 +2,8 @@
   "name": "@xwyatt/just-another-logger",
   "version": "0.0.1",
   "description": "Just another Logging utility (aka: a console wrapper). There are far better utilities out there, but this one is mine.",
-  "main": "index.js",
-  "scripts": { },
+  "main": "src/index.js",
+  "scripts": {},
   "keywords": [
     "logger",
     "logging",
