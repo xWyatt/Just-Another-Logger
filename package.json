@@ -2,6 +2,8 @@
   "name": "@xwyatt/just-another-logger",
   "version": "0.0.1",
   "description": "Just another Logging utility (aka: a console wrapper). There are far better utilities out there, but this one is mine.",
+  "homepage": "https://github.com/xWyatt/Just-Another-Logger/#readme",
+  "bugs": "https://github.com/xWyatt/Just-Another-Logger/issues",
   "main": "src/index.js",
   "scripts": {},
   "keywords": [
@@ -10,6 +12,10 @@
     "logs",
     "utilities"
   ],
-  "author": "Wyatt Teeter",
-  "license": "MIT"
+  "author": "Wyatt Teeter <wyatt@wyattteeter.com>",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/xWyatt/Just-Another-Logger.git"
+  }
 }
