@@ -18,17 +18,15 @@ const Logger = require("@xwyatt/just-another-logger");
 Just Another Logger has 5 printing methods, and one method to toggle method.
 
 ### Available Methods
-- setDebug(`boolean`) : This toggles debug mode. When on (`true`) .debug() messages will print; .debug() messages will be ignored if off (`false`)
+| method(`expected type`) | Description |
+| -- | -- |
+| setDebug(`boolean`) | This toggles debug mode. When on (`true`) .debug() messages will print; .debug() messages will be ignored if off (`false`) |
+| debug(`string`) | This prints a debug message. This is Cyan in color and is prefixed with "DEBUG" |
+| info(`string`) | This prints an informational message. This is grey in color and is prefixed with "INFO" |
+| warning(`string`)  | This prints a warning message. This is yellow in color and is prefixed with "WARN" |
+| error(`string`) | This prints an error message. This is red in color and is prefixed with "ERROR" |
+| critical(`string`) | This prints a critical error message. This is white in color, with a red background, and prefixed with "CRITICAL" |
 
-- debug(`string`) : This prints a debug message. This is Cyan in color and is prefixed with "DEBUG"
-
-- info(`string`) : This prints an informational message. This is grey in color and is prefixed with "INFO"
-
-- warning(`string`)  : This prints a warning message. This is yellow in color and is prefixed with "WARN"
-
-- error(`string`) : This prints an error message. This is red in color and is prefixed with "ERROR"
-
-- critical(`string`) : This prints a critical error message. This is white in color, with a red background, and prefixed with "CRITICAL"
 
 ### Example Usage
 ```
@@ -41,6 +39,7 @@ Logger.debug("This will print in a blue color with a timestamp!");
 Logger.info("A user has just signed in!"); // Informational Message
 Logger.warning("Something bad might happen"); // Yellow warning message!
 Logger.error("Something bad happened.."); // Error Message
+Logger.critical("This is a really bad error"); // Critical Error
 ```
 
 Output from the above usage:
