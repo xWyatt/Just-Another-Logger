@@ -1,6 +1,6 @@
 {
   "name": "@xwyatt/just-another-logger",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Just another Logging utility (aka: a console wrapper). There are far better utilities out there, but this one is mine.",
   "homepage": "https://github.com/xWyatt/Just-Another-Logger/#readme",
   "bugs": "https://github.com/xWyatt/Just-Another-Logger/issues",
